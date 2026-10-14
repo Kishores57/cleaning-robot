@@ -20,7 +20,7 @@ Our project received recognition as the **West Zone Winner** at the National Gre
 
 Our prototype demonstrates the physical design and hardware integration of the AI-powered trash cleaning robot.
 
-![AI-Powered Trash Cleaning Robot Prototype](images/robot-prototype.jpg)
+![AI-Powered Trash Cleaning Robot Prototype](images/WhatsApp Image 2025-07-24 at 00.08.10_af35074c.jpg)
 
 ---
 
