@@ -12,7 +12,7 @@ An AI-powered robotics project that combines computer vision, embedded systems, 
 
 Our project received recognition as the **West Zone Winner** at the National Green Earth Challenge, highlighting our effort to apply engineering and intelligent automation to an environmental challenge.
 
-![National Green Earth Challenge - West Zone Winner](images/national-green-earth-challenge.jpg)
+![National Green Earth Challenge - West Zone Winner](images/WhatsApp Image 2025-07-24 at 00.08.59_fd0810f1.jpg)
 
 ---
 
