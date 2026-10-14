@@ -2,7 +2,25 @@
 # 🤖 AI-Powered Trash Cleaning Robot
 ### Intelligent Waste Detection, Collection and Disposal System ♻️
 
-An AI-powered robotic system designed to identify waste from its surroundings and assist in collecting it using computer vision, embedded systems, and robotics.
+An AI-powered robotics project that combines computer vision, embedded systems, and mechanical design to address waste management challenges.
+
+---
+
+## 🏆 Achievement: National Green Earth Challenge
+
+**West Zone Winner | National Green Earth Challenge**
+
+Our project received recognition as the **West Zone Winner** at the National Green Earth Challenge, highlighting our effort to apply engineering and intelligent automation to an environmental challenge.
+
+![National Green Earth Challenge - West Zone Winner](images/national-green-earth-challenge.jpg)
+
+---
+
+## 📸 Working Prototype
+
+Our prototype demonstrates the physical design and hardware integration of the AI-powered trash cleaning robot.
+
+![AI-Powered Trash Cleaning Robot Prototype](images/robot-prototype.jpg)
 
 ---
 
@@ -11,7 +29,7 @@ An AI-powered robotic system designed to identify waste from its surroundings an
 - [Project Overview](#-project-overview)
 - [Problem Statement](#-problem-statement)
 - [Proposed Solution](#-proposed-solution)
-- [Project Objectives](#-project-objectives)
+- [Objectives](#-objectives)
 - [Project Gallery](#-project-gallery)
 - [System Architecture](#-system-architecture)
 - [Technology Stack](#-technology-stack)
@@ -23,248 +41,232 @@ An AI-powered robotic system designed to identify waste from its surroundings an
 - [Challenges and Limitations](#-challenges-and-limitations)
 - [Future Scope](#-future-scope)
 - [Conclusion](#-conclusion)
-- [Contributors](#-contributors)
 
 ---
 
 ## 🌍 Project Overview
 
-Waste management is an important environmental challenge. Traditional waste collection often requires manual effort, continuous human monitoring, and significant time.
+Waste pollution is a growing environmental concern affecting streets, campuses, residential areas, and public spaces. Traditional waste collection methods often depend on manual labour and continuous human monitoring.
 
-The **AI-Powered Trash Cleaning Robot** aims to make waste collection smarter by combining Artificial Intelligence (AI), computer vision, robotics, and embedded systems.
+The **AI-Powered Trash Cleaning Robot** explores how Artificial Intelligence (AI), computer vision, robotics, and embedded systems can be combined to improve waste collection.
 
-The robot is designed to detect waste using a camera and a YOLOv5-based object detection model. A Raspberry Pi processes the AI tasks, while an Arduino can handle low-level motor and actuator control.
+The system uses a camera to capture images of its surroundings and a YOLOv5-based object detection model to identify waste. A Raspberry Pi 5 handles AI processing, while an Arduino manages low-level hardware control.
 
-Based on the detection and control logic, the robot can navigate its environment, approach waste, and use a robotic collection mechanism to pick it up and transfer it to a designated disposal area.
+The robot is designed to use sensors, motors, and a collection mechanism to support waste detection, movement, pickup, and disposal.
 
-The project explores how intelligent robotic systems can support cleaner campuses, public spaces, and residential areas.
+**Project Domain:** Artificial Intelligence, Robotics, Embedded Systems, Environmental Sustainability.
 
 ## 🚨 Problem Statement
 
-Improper waste disposal in public spaces, college campuses, roadsides, and residential areas creates environmental pollution and unhealthy surroundings.
+Improper waste disposal in public spaces creates environmental pollution and unhealthy surroundings. Conventional collection methods face several challenges:
 
-Conventional waste collection methods face several challenges:
+- **Manual effort:** Waste collection requires considerable physical labour.
+- **Limited monitoring:** Scattered waste may remain unnoticed across large areas.
+- **Time-consuming operations:** Collecting waste from multiple locations can be inefficient.
+- **Limited automation:** Conventional methods may not automatically identify and collect scattered waste.
+- **Environmental concerns:** Accumulated litter can affect land, water, wildlife, and public health.
 
-- **Manual effort:** Waste collection requires physical labour and time.
-- **Inefficient monitoring:** Litter may remain unnoticed across large areas.
-- **Environmental impact:** Accumulated waste can pollute land and surrounding ecosystems.
-- **Limited automation:** Many conventional systems cannot independently identify and collect scattered waste.
-- **Operational challenges:** Monitoring and collecting waste from multiple locations can be difficult.
+### Our Challenge
 
-### Our Problem
-
-How can we develop an intelligent, affordable robotic system that uses computer vision and embedded hardware to identify and assist in collecting waste with reduced manual intervention?
+How can we develop an intelligent and practical robotic system that uses computer vision and embedded hardware to identify waste and assist in its collection with reduced manual intervention?
 
 ## 💡 Proposed Solution
 
-We propose an AI-powered trash cleaning robot that integrates computer vision, embedded processing, sensors, and a robotic collection mechanism.
+We propose an AI-powered trash cleaning robot that integrates computer vision, embedded computing, sensors, and a robotic collection mechanism.
 
-The proposed system consists of:
+The proposed workflow includes:
 
-1. A camera that captures images of the surrounding environment.
-2. A YOLOv5-based object detection model that identifies waste in camera frames.
-3. A Raspberry Pi that processes visual information and executes the AI pipeline.
-4. An Arduino that manages motor and actuator control.
-5. Ultrasonic sensors that help measure nearby obstacles.
-6. Servo motors and a collection mechanism designed to pick up waste.
-7. A designated collection or disposal area where collected waste can be deposited.
+1. Capturing environmental images through a camera.
+2. Detecting waste using a YOLOv5 object detection model.
+3. Processing detections using a Raspberry Pi 5.
+4. Controlling movement and actuators through an Arduino.
+5. Using ultrasonic sensors to measure nearby obstacles.
+6. Operating a robotic collection mechanism to pick up waste.
+7. Transferring collected waste to a designated disposal area.
 
-The system is intended to reduce repetitive manual work and demonstrate the practical use of AI and robotics for environmental sustainability.
+The goal is to demonstrate how intelligent automation can support cleaner and more sustainable environments.
 
-## 🎯 Project Objectives
+## 🎯 Objectives
 
-- Develop an intelligent waste detection system using computer vision.
-- Integrate AI processing with embedded hardware.
-- Design a robotic mechanism for waste collection.
-- Enable motor control and obstacle sensing.
-- Explore autonomous movement and waste collection workflows.
+- Develop an AI-based waste detection system.
+- Integrate computer vision with embedded hardware.
+- Design a robotic waste collection mechanism.
+- Implement motor and actuator control.
+- Support obstacle awareness using distance sensors.
+- Explore autonomous waste collection workflows.
 - Develop a prototype that can be improved for real-world deployment.
-- Support cleaner and more sustainable public environments.
 
 ---
 
 ## 📸 Project Gallery
 
-The following images document the project design and prototype.
+### 1. Robot Prototype
 
-### Image 1: Robot Model
+![Robot Prototype](images/robot-prototype.jpg)
+
+### 2. National Green Earth Challenge Achievement
+
+![West Zone Winner](images/national-green-earth-challenge.jpg)
+
+### 3. Project Design
 
 ![Project Design](images/1untitled.png)
 
-### Image 2: Robot Model
+### 4. Robot Model
 
 ![Robot Model](images/2untitled.png)
 
-### Image 3: Robot Model
+### 5. Prototype Details
 
 ![Prototype Details](images/4untitled.png)
 
-### Image 4: Robot Model
+### 6. System Design
 
 ![System Design](images/5untitled.png)
 
-### Image 5: Robot Model
+### 7. Robot Development
 
 ![Robot Development](images/10untitled.png)
 
-### Image 6: Robot Model
+### 8. Hardware and Assembly
 
 ![Hardware and Assembly](images/13untitled.png)
 
-### Image 7: Robot Model
+### 9. Additional Project View
 
 ![Additional Project View](images/14untitled.png)
-
-> Note: Update the image headings to match the actual contents of each photo.
 
 ---
 
 ## 🏗️ System Architecture
 
-The project separates AI processing from low-level hardware control.
-
 ```text
-          SURROUNDING ENVIRONMENT
-                    |
-                    v
-              CAMERA MODULE
-                    |
-                    v
+             ENVIRONMENT
+                  |
+                  v
+             CAMERA MODULE
+                  |
+                  v
              RASPBERRY PI 5
-                    |
-                    v
+                  |
+                  v
            PYTHON + OPENCV
-                    |
-                    v
-             YOLOv5 MODEL
-                    |
-                    v
-          WASTE DETECTION LOGIC
-                    |
-                    v
-          ROBOT CONTROL COMMANDS
-                    |
-                    v
+                  |
+                  v
+              YOLOv5 MODEL
+                  |
+                  v
+           WASTE DETECTION
+                  |
+                  v
+          CONTROL DECISION LOGIC
+                  |
+                  v
                 ARDUINO
-                    |
-          +---------+---------+
-          |         |         |
-          v         v         v
-      MOTOR      SERVO     SENSORS
-      DRIVER     MOTORS    / INPUTS
-          |         |         |
-          v         v         v
-       MOVEMENT   PICKUP   OBSTACLE
-                 MECHANISM  SENSING
-                    |
-                    v
-             WASTE COLLECTION
-                    |
-                    v
-          DESIGNATED DISPOSAL AREA
+                  |
+          +-------+-------+
+          |       |       |
+          v       v       v
+       MOTORS   SERVOS  SENSORS
+          |       |       |
+          v       v       v
+       MOVEMENT  PICKUP  OBSTACLE
+                SYSTEM   SENSING
+                  |
+                  v
+          WASTE COLLECTION
+                  |
+                  v
+         DESIGNATED DISPOSAL AREA
 ```
 
-**Architecture note:** This diagram represents the intended system workflow. Actual communication links, feedback loops, and control responsibilities should reflect the implemented hardware and code.
+**Architecture note:** This is the conceptual system architecture. Actual control signals, communication links, and feedback mechanisms should match the implemented hardware and software.
 
 ## 🛠️ Technology Stack
 
-| Category | Technology | Purpose |
-|---|---|---|
-| AI / Computer Vision | YOLOv5 | Waste object detection |
-| Programming | Python | AI pipeline and application logic |
-| Image Processing | OpenCV | Camera frame processing |
-| AI Computing | Raspberry Pi 5 | Runs the vision pipeline |
-| Embedded Control | Arduino | Motor and actuator control |
-| Distance Sensing | Ultrasonic sensors | Obstacle distance measurement |
-| Actuation | Servo motors | Collection mechanism movement |
-| Navigation Support | GPS Neo-6M | Location information, if integrated |
-| Hardware Interface | Motor driver | Drives the robot's motors |
-| Power | Battery system | Supplies power to the robot |
-| Version Control | Git and GitHub | Code management and documentation |
+| Technology | Application |
+|---|---|
+| YOLOv5 | Waste object detection |
+| Python | AI pipeline and control logic |
+| OpenCV | Image processing and camera handling |
+| Raspberry Pi 5 | AI computation and system coordination |
+| Arduino | Low-level motor and actuator control |
+| Ultrasonic Sensors | Distance measurement and obstacle awareness |
+| Servo Motors | Robotic collection mechanism |
+| Motor Driver | DC motor control |
+| GPS Neo-6M | Location information, if integrated |
+| Git and GitHub | Version control and project documentation |
 
 ## 🔩 Hardware Components
 
-### 1. Raspberry Pi 5
-Acts as the primary computing unit for processing camera frames and running the object detection pipeline.
+### Raspberry Pi 5
+Runs the AI inference pipeline and processes camera data.
 
-### 2. Arduino
-Handles real-time hardware control, including motor commands and actuator signals.
+### Arduino
+Controls motors and actuators according to commands from the control logic.
 
-### 3. Camera Module
-Captures images or video of the surrounding environment for waste detection.
+### Camera Module
+Captures images and video frames for waste detection.
 
-### 4. Ultrasonic Sensors
+### Ultrasonic Sensors
 Measure the distance to nearby objects and can support obstacle avoidance.
 
-### 5. Servo Motors
+### Servo Motors
 Control the movement of the robotic collection mechanism.
 
-### 6. Motor Driver and DC Motors
-Enable the robot to move by controlling the motors according to commands from the controller.
+### DC Motors and Motor Driver
+Provide locomotion and allow the robot to move according to control commands.
 
-### 7. GPS Neo-6M
-Can provide geographical coordinates when location tracking is implemented and a suitable GPS signal is available.
+### GPS Neo-6M
+Can provide geographical coordinates when location tracking is implemented.
 
-### 8. Battery and Power System
-Provides electrical power to the computing board, controller, sensors, and motors. Appropriate voltage regulation and power distribution are required.
-
----
+### Battery and Power System
+Supplies power to the robot's computing and hardware components.
 
 ## 💻 Software Components
 
-### YOLOv5 Object Detection
+### YOLOv5
+Identifies waste objects in camera frames and generates bounding boxes, predicted classes, and confidence scores.
 
-YOLOv5 is used as the computer vision model for identifying waste objects in images or camera frames.
+### Python
+Coordinates the detection pipeline and application-level logic.
 
-The model processes visual input and produces detections containing object classes, bounding boxes, and confidence scores.
-
-### Python and OpenCV
-
-Python manages the AI pipeline, while OpenCV supports camera access and image processing.
+### OpenCV
+Supports camera access and image processing.
 
 ### Arduino Firmware
-
-Arduino firmware manages low-level hardware operations, including motor driver outputs and servo positioning.
+Handles low-level motor commands and actuator control.
 
 ### Control Logic
-
-The control logic coordinates detection results with movement and collection actions. A robust implementation should account for detection confidence, obstacle sensing, actuator limits, and failed pickups.
+Coordinates detections, sensor readings, movement, and collection actions.
 
 ---
 
 ## ⚙️ Working Principle
 
 ### Step 1: Environment Monitoring
-
 The camera captures frames from the robot's surroundings.
 
 ### Step 2: Waste Detection
-
-The captured frames are processed by the YOLOv5 object detection model to identify supported waste categories.
+The YOLOv5 model processes the images and identifies supported waste categories.
 
 ### Step 3: Detection Processing
-
-The Raspberry Pi interprets the model output and determines whether a valid waste detection has occurred.
+The Raspberry Pi processes the model output and determines whether a valid detection has occurred.
 
 ### Step 4: Movement Control
-
-The control system uses the detection and sensor information to determine the next movement. The Arduino executes the corresponding motor commands.
+The control system determines movement commands based on detections and sensor inputs.
 
 ### Step 5: Obstacle Sensing
-
-Ultrasonic sensors provide distance measurements to help the robot identify nearby obstacles.
+Ultrasonic sensors provide distance measurements to help detect nearby obstacles.
 
 ### Step 6: Waste Collection
-
-The collection mechanism is positioned to pick up the detected waste using the configured actuator and control sequence.
+The robotic mechanism attempts to pick up detected waste using its configured actuator sequence.
 
 ### Step 7: Waste Disposal
+Collected waste is transferred to the designated disposal area when the required collection and navigation functions are implemented.
 
-The robot transfers the collected waste to a designated disposal area when the required collection and navigation functions are implemented.
-
-### Step 8: Repeat the Process
-
-The robot can repeat the detection and collection cycle to process additional waste items.
+### Step 8: Repeat
+The robot can repeat the detection and collection process for additional waste items.
 
 ---
 
@@ -274,6 +276,8 @@ The robot can repeat the detection and collection cycle to process additional wa
 cleaning-robot/
 │
 ├── images/
+│   ├── robot-prototype.jpg
+│   ├── national-green-earth-challenge.jpg
 │   ├── 1untitled.png
 │   ├── 2untitled.png
 │   ├── 4untitled.png
@@ -302,105 +306,101 @@ cleaning-robot/
 └── README.md
 ```
 
-> This is the recommended structure. Create these directories and files as your implementation grows. Do not list empty or nonexistent source files as completed deliverables.
+*This is the recommended structure. Add folders and files as the implementation develops. The README and image paths should match the files actually present in the repository.*
 
 ## ✨ Key Features
 
 - AI-based waste detection using computer vision.
-- Integration of AI computing and embedded hardware.
+- Integration of Raspberry Pi computing and Arduino control.
 - Sensor-assisted obstacle awareness.
 - Motorized robotic movement.
 - Servo-based waste collection mechanism.
-- Modular architecture that separates vision and hardware control.
+- Modular hardware and software architecture.
 - Potential for location-aware monitoring and future expansion.
 
-Features should be marked as implemented only after they have been built and tested on the actual prototype.
+Only claim a feature as implemented if it has been developed and tested on the actual robot.
 
 ## ⚠️ Challenges and Limitations
 
-Potential engineering challenges include:
-
-- Detecting waste under different lighting and environmental conditions.
+- Detecting waste under varying lighting conditions.
 - Distinguishing waste from visually similar objects.
-- Running object detection efficiently on embedded hardware.
-- Coordinating AI decisions with real-time motor control.
-- Preventing collisions and handling narrow spaces.
-- Designing a collection mechanism that can handle different waste shapes.
-- Managing battery consumption and hardware reliability.
-- Ensuring safe operation around people.
-
-These challenges provide opportunities for testing, optimization, and future development.
+- Optimizing inference speed on embedded hardware.
+- Coordinating AI decisions with hardware control.
+- Avoiding obstacles in crowded environments.
+- Handling waste of different sizes and shapes.
+- Managing battery life and power consumption.
+- Ensuring reliable and safe operation.
 
 ## 🚀 Future Scope
 
 ### Improved AI Detection
-Expand the dataset to support more waste categories and improve performance under different environmental conditions.
+Expand the dataset and improve detection performance across different environments.
 
 ### Autonomous Navigation
-Integrate navigation algorithms and additional sensors for safer movement through complex environments.
+Integrate navigation algorithms and additional sensors to support independent movement.
 
 ### Smart Waste Monitoring
-Introduce location-based reporting and waste collection statistics where suitable connectivity is available.
+Add a dashboard for viewing detection events and collection statistics if telemetry is available.
 
 ### Improved Collection Mechanism
-Develop a more reliable gripper or robotic arm that can handle different waste sizes and shapes.
+Develop a more reliable gripper or robotic arm for handling different waste types.
 
 ### Energy Optimization
-Optimize inference speed, motor operation, and power consumption for longer operating time.
+Optimize inference, motor operation, and power consumption.
 
 ### Multi-Robot Coordination
-Explore multiple robots working together to cover larger campuses or public spaces.
+Explore multiple robots working together to cover larger areas.
 
-### Dashboard Integration
-Build a dashboard to visualize detected waste, collection activity, and system status if telemetry is available.
+### Location-Based Monitoring
+Use GPS and mapping capabilities where appropriate to record robot locations and collection activity.
 
 ---
 
 ## 🌱 Environmental Impact
 
-The project explores how intelligent automation can support environmental cleanliness by helping identify and collect scattered waste.
+This project explores the application of intelligent automation to environmental sustainability.
 
-Its potential benefits include:
+Potential benefits include:
 
-- Reducing repetitive manual collection work.
-- Encouraging practical applications of AI for sustainability.
-- Supporting cleaner campus and public environments.
-- Providing a foundation for future smart waste management systems.
+- Reducing repetitive manual waste collection work.
+- Encouraging practical AI applications for environmental problems.
+- Supporting cleaner campuses and public spaces.
+- Establishing a foundation for future smart waste management systems.
 
-The actual environmental impact would need to be evaluated through field testing, collection efficiency, energy consumption, and reliability measurements.
+The actual impact should be measured through field testing, waste collection efficiency, energy consumption, and operational reliability.
 
 ## 📚 Learning Outcomes
 
-This project brings together several engineering domains:
+Through this project, we explore:
 
 - Artificial Intelligence and Machine Learning.
 - Computer Vision and Image Processing.
 - Embedded Systems and Microcontrollers.
 - Robotics and Motor Control.
 - Hardware and Software Integration.
-- System Architecture and Prototyping.
-- Version Control and Technical Documentation.
+- System Design and Prototyping.
+- Git and GitHub for project management.
 
 ## 🏁 Conclusion
 
-The AI-Powered Trash Cleaning Robot demonstrates an approach to combining computer vision, embedded computing, and robotics for environmental applications.
+The AI-Powered Trash Cleaning Robot demonstrates an engineering approach to waste management by combining computer vision, embedded computing, sensors, and robotic actuation.
 
-By integrating a YOLOv5-based detection pipeline with Raspberry Pi processing, Arduino-based control, distance sensing, and a robotic collection mechanism, the project establishes a foundation for intelligent waste collection.
+The project aims to identify waste and support its collection through an integrated hardware and software system. Further improvements in detection accuracy, autonomous navigation, collection reliability, and energy efficiency can help advance the prototype toward practical use.
 
-Further improvements in autonomous navigation, object detection accuracy, collection reliability, and energy efficiency can help move the prototype closer to practical deployment.
-
-**Our vision: Use intelligent engineering to help build cleaner and more sustainable environments. 🌍♻️**
+**Our vision: Intelligent engineering for cleaner and more sustainable environments. 🌍♻️**
 
 ---
 
 ## 👥 Contributors
 
-Add the names and contributions of the project team here.
+**Project Team:** Add the names of all team members and their contributions.
 
-- **Project Team:** Add team member names.
-- **Institution:** K. K. Wagh Institute of Engineering Education and Research, Nashik (if applicable to this project).
-- **Project Domain:** Artificial Intelligence, Robotics and Environmental Sustainability.
+**Institution:** K. K. Wagh Institute of Engineering Education and Research, Nashik, if applicable.
+
+**Achievement:** West Zone Winner, National Green Earth Challenge.
+
+**Project Domain:** AI, Robotics, Embedded Systems, Environmental Sustainability.
 
 ## 📄 License
 
-Choose an appropriate open-source license before distributing or reusing the project. For example, the MIT License permits broad reuse subject to its terms.
+Choose and add an appropriate open-source license before distributing or permitting reuse of the project.
